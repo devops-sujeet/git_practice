@@ -19,12 +19,12 @@
 
 <distributionManagement>
      <repository>
-       <id>releases</id>
+       <id>cicd-releases</id>
        <!-- CHANGE HERE by your team nexus server -->
        <url>http://ec2-18-216-64-127.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/cicd-releases/</url>
      </repository>
     <snapshotRepository>
-       <id>snapshots</id>
+       <id>cicd-snapshots</id>
        <!-- CHANGE HERE by your team nexus server -->
        <url>http://ec2-18-216-64-127.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/cicd-snapshots/</url>
     </snapshotRepository>
