@@ -1,6 +1,4 @@
-pipeline {
-         agent any
-         stages {
+node{
                  stage('One') {
                  steps {
                      echo 'Hi, this is sujeet from edureka'
@@ -30,5 +28,5 @@ pipeline {
                            }
                            }
                            }
-              }
+              
 }
