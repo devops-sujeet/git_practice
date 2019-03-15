@@ -14,19 +14,11 @@ node{
                      echo 'Hi, I love chubby'
                  }
                  }
-                 stage('Four') {
-                 parallel { 
-                            stage('Unit Test') {
-                           steps {
-                                echo "Running the unit test..."
-                           }
-                           }
-                            stage('Integration test') {                                  
+                 stage('Four') {                              
                               steps {
                                 echo "Running the integration test..."
                               }
                            }
-                           }
-                           }
+                          
               
 }
