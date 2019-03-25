@@ -1,15 +1,15 @@
 pipeline {
-    agent none
+    agent any
     stages {
-        stage('Build') {
+        stage('Example') {
             steps {
-                echo "HI!"
+                echo 'Hello World'
             }
         }
-        stage('Test') {
-            steps {
-                echo "Bye"
-            }
+    }
+    post { 
+        always { 
+            echo 'I will always say Hello again!'
         }
     }
 }
