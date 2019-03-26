@@ -1,4 +1,4 @@
-@Library('Var-Lib')_
+@Library('Var-Library')_
 node {
 
    stage('Preparation') { 
