@@ -21,7 +21,7 @@ node {
 
    }
    stage('Var-Lib') {
-       Myclass "sujeet"
+       myclass "sujeet"
 
    }
 }
