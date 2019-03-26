@@ -1,3 +1,5 @@
+@('Var-Lib)'_
+
 pipeline {
     agent any
     stages {
@@ -6,6 +8,11 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('varlib') {
+            steps{
+                Myclass
+            }
+        }   
     }
     post { 
         always { 
