@@ -1,4 +1,4 @@
-@Libraries('Var-Lib')_
+@Library('Var-Lib')_
 node {
    def mvnHome
    stage('Preparation') { // for display purposes
