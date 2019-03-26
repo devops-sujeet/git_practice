@@ -5,16 +5,9 @@ node {
       
   echo " Hey! Lets check"
    }
-   stage('Build') {
 
-     echo " Hey! Its working."
-   }
-   stage('Results') {
-       echo " Hey! It will work"
-
-   }
    stage('Var-Lib') {
-         sayhello "sujeet"
+         sayhello.myclass "sujeet"
 
    }
 }
