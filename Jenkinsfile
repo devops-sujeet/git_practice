@@ -7,7 +7,7 @@ node {
    }
 
    stage('Var-Lib') {
-         sayhello.myclass "sujeet"
+         sayhello "sujeet"
 
    }
 }
