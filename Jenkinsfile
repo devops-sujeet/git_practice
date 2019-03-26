@@ -1,8 +1,8 @@
 @Library('Var-Lib')_
 node {
-   def mvnHome
-   stage('Preparation') { // for display purposes
 
+   stage('Preparation') { 
+      
   echo " Hey! Lets check"
    }
    stage('Build') {
