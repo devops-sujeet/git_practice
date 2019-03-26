@@ -1,4 +1,4 @@
-@('Var-Lib)'_
+@Library('Var-Lib)'_
 
 pipeline {
     agent any
